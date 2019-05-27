@@ -58,7 +58,7 @@ def converter ():
 converter()
 """
 
-#myway - rectified as user input should be preferably outside of the function
+#myway - another way
 def converter (celsius):
     result = (float(celsius) *9/5) + 32
     print (celsius + " degrees celsius are " + str(result) +" degrees Farenheit.")
